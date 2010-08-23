@@ -1,0 +1,18 @@
+---
+Install: 
+    date: Thu, 22 Jul 10 18:16:23 -0400
+App: 
+    base: 
+    baseUrl: 
+    timezone: America/Santiago
+    theme: cleanity
+    name: Smart Admin
+Site:
+    name: 
+    theme: 
+    admin_theme: cleanity
+    status: 1
+Hook: 
+    bootstraps: core,acl
+    components: 
+    routes: core,acl

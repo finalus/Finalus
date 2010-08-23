@@ -1,0 +1,11 @@
+<package xmlns="http://ns.adobe.com/adept" action="update">
+	<fileName>testfile.pdf</fileName>
+	<metadata  xmlns:dc="http://purl.org/dc/elements/1.1/">
+		<dc:title>XML Test Test</dc:title>
+		<dc:creator>Piotr Test</dc:creator>
+		<dc:publisher>Adobe Systems Inc</dc:publisher>
+		<dc:format>application/pdf</dc:format>
+	</metadata>
+	<permissions/>
+	<dataPath>asdfasdfasdf</dataPath>
+</package>
