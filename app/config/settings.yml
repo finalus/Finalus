@@ -7,6 +7,7 @@ App:
     timezone: America/Santiago
     theme: cleanity
     name: Smart Admin
+    base: finalus
 Site:
     name: 
     theme: 

@@ -1,0 +1,11 @@
+/cakephp
+
+/app/config/*.yml
+/app/tmp/cache/persistent/cake_*
+/app/tmp/cache/models/cake_*
+/app/tmp/cache/views/cake_*
+/app/tmp/logs/*.log
+
+/app/webroot/files/**/*.*
+
+/app/config/config.php

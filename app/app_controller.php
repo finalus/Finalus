@@ -13,7 +13,7 @@ class AppController extends Controller {
     function beforeFilter() { 
 		$this->AclFilter->auth();
 		$this->Security->blackHoleCallback = '__securityError';
-        $this->set('appConfigurations', Configure::read('App'));
+        	$this->set('appConfigurations', Configure::read('App'));
  		$this->set('title_for_layout', __('Error: Title For Layout needed', true));
 
 		$this->Setting->applyAllUpdates();
@@ -21,8 +21,6 @@ class AppController extends Controller {
 		if (isset($this->params['admin'])) {
 			$this->layout = 'admin';
 		}
-		
-		debug($this, false);
 		
 		$this->Auth->allow('*');
 	   	
